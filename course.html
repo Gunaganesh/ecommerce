@@ -171,7 +171,8 @@ dataLayer.push({
     ]
   }
 });
-	   gtag("event", "add_to_wishlist", {
+	 dataLayer.push({
+		 event: "add_to_wishlist", {
   currency: "USD",
   value: 7.77,
   items: [
