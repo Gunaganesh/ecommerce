@@ -171,10 +171,7 @@ dataLayer.push({
     ]
   }
 });
-	</script>
-
-dataLayer.push({
-	gtag("event", "view_item", {
+	   gtag("event", "add_to_wishlist", {
   currency: "USD",
   value: 7.77,
   items: [
@@ -198,9 +195,12 @@ dataLayer.push({
       price: 9.99,
       quantity: 1
     }
-  ]
-})
-	});
+  ],
+});
+
+	</script>
+
+
 
     <title>Contact Page</title>
 </head>
